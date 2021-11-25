@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark">
           <div className="container-fluid padding-navbar">
-            <a className="navbar-brand" href="/">
+            <a className="navbar-brand" href="#">
               Logo
             </a>
             <button
@@ -34,15 +34,15 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item left-item">
-                  <a className="active-page" aria-current="page" href="/">
+                  <a className="active-page" aria-current="page" href="#">
                     Kampaniyalar
                   </a>
                 </li>
                 <li className="nav-item left-item">
-                  <a href="/">Katoqoriya & Məhsullar</a>
+                  <a href="#">Katoqoriya & Məhsullar</a>
                 </li>
                 <li className="nav-item left-item">
-                  <a href="/">Əlaqə</a>
+                  <a href="#">Əlaqə</a>
                 </li>
               </ul>
               <ul className="navbar-nav">
@@ -128,7 +128,7 @@ const Navbar = () => {
                       </div>
                       <a
                         className="btn-linkcart"
-                        href="/"
+                        href="#"
                         onClick={() => {
                           setOpen(false);
                         }}
@@ -139,7 +139,7 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li className="nav-item right-item">
-                  <a href="/">
+                  <a href="#">
                     <i className="far fa-user-circle"></i> Profilim
                   </a>
                 </li>

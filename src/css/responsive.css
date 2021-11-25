@@ -1,0 +1,161 @@
+@media screen and (max-width: 1199.98px) {
+  .order-about-box:nth-child(1) {
+    padding-right: 1.5rem;
+  }
+  .order-about-box:nth-child(2) {
+    padding-right: 1.5rem;
+  }
+  .card {
+    width: 12rem;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .card-image {
+    height: 155px;
+  }
+  .card-body-details span {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .left-item {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .nav-item {
+    padding-left: 0;
+  }
+  .order-div {
+    background-color: #faf9f7;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px 3px rgb(0 0 0 / 8%);
+  }
+  .order-about-box:nth-child(1) {
+    padding-right: 4rem;
+  }
+  .order-about-box:nth-child(2) {
+    padding-right: 4rem;
+  }
+  .div-left-image {
+    height: 45vh;
+    padding: 20px;
+  }
+  .order-div-left {
+    width: 100%;
+  }
+  .order-div-right {
+    width: 100%;
+  }
+  .card-image {
+    height: 140px;
+  }
+  .card-title {
+    font-size: 21px;
+  }
+  .order-buttons {
+    margin-bottom: 1rem;
+  }
+  .card-body-details span {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 767.98px) and (min-width: 600px) {
+  .padding-container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .card-body {
+    padding: 0.5rem 0.5rem;
+  }
+  .card-body-details span {
+    font-size: 15px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer-box {
+    align-items: center;
+  }
+  .basket {
+    padding: 0;
+  }
+  .dropdown-cart {
+    min-width: 23vw;
+  }
+  .div-left-image {
+    height: 40vh;
+  }
+  .order-about-box:nth-child(1) {
+    padding-right: 2.5rem;
+  }
+  .order-about-box:nth-child(2) {
+    padding-right: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 576.98px) {
+  .footer-box {
+    align-items: center;
+  }
+  .div-left-image {
+    height: 35vh;
+  }
+  .card-text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 499.98px) {
+  .card-image {
+    height: 155px;
+  }
+  .order-div-right {
+    padding-left: 0.8rem;
+    padding-right: 0.8em;
+  }
+  .order-about-box:nth-child(1) {
+    padding-right: 1.5rem;
+  }
+  .order-about-box:nth-child(2) {
+    padding-right: 1.5rem;
+  }
+  .order-count p {
+    font-size: 21px;
+  }
+  .btn-count button {
+    font-size: 16px;
+  }
+  .order-adress-tag {
+    font-size: 21px;
+  }
+  .main-price-about {
+    font-size: 23px;
+    width: 180px;
+    height: 45px;
+  }
+  .order-btn {
+    font-size: 19px;
+    width: 180px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 421.98px) {
+  .order-description {
+    font-size: 16px;
+  }
+  .box-about-name {
+    font-size: 16px;
+  }
+  .box-about-div {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}

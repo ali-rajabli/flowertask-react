@@ -1,0 +1,96 @@
+.slick-slide {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  padding-bottom: 2rem;
+}
+
+.slick-dots {
+  bottom: -70px;
+}
+
+.slick-dots li button:before {
+  font-size: 25px;
+  color: #f0385c;
+  transition: 0.3s;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #f0385c;
+}
+
+/* .slider-container {
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+} */
+
+.card {
+  box-shadow: 0 10px 15px 3px rgb(0 0 0 / 9%);
+  /* width: 16rem; */
+}
+
+.card-title {
+  font-weight: 600;
+  font-family: "Baloo 2", cursive;
+  font-size: 24px;
+}
+
+.card-text {
+  color: rgb(95, 95, 95);
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.card-image {
+  height: 200px;
+  border-radius: 12px;
+  padding: 15px 15px 0 15px;
+}
+
+.card img {
+  border-radius: 6px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+}
+
+.card-body-details {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card-body-left {
+  border-right: 1px solid rgba(128, 128, 128, 0.363);
+}
+
+.card-body-left span {
+  font-size: 27px;
+}
+
+.card-body-right button {
+  font-size: 27px;
+  color: #f0385c;
+  background: none;
+  border: none;
+  width: fit-content;
+}
+
+.carousel-indicators {
+  margin-bottom: -5rem;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #f0385c;
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+}
